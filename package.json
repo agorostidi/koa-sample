@@ -1,0 +1,28 @@
+{
+  "name": "koa-sample",
+  "version": "1.0.0",
+  "description": "Sample of Koa aplication using Promises and async/wait",
+  "main": "index.js",
+  "engines": {
+    "node": ">=9"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_PATH=. NODE_ENV=dev PORT=9000 nodemon index.js | bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "skeleton",
+    "promises"
+],
+"repository": {
+  "type": "git",
+  "url": "https://github.com/agorostidi/koa-sample"
+},
+  "author": "Andres Gorostidi",
+  "email": "Andres.Gorostidi@es.ibm.com",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
+}
