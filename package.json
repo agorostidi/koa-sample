@@ -17,11 +17,11 @@
 ],
 "repository": {
   "type": "git",
-  "url": "https://github.com/agorostidi/koa-sample"
+  "url": "https://github.com/agorostidi/koa-sample.git"
 },
   "author": "Andres Gorostidi",
   "email": "Andres.Gorostidi@es.ibm.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "koa": "^2.4.1"
   }
